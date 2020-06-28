@@ -27,7 +27,7 @@ void setup() {
   pinMode(Echo, INPUT);  //pin como entrada
   digitalWrite(Trigger, LOW);//Inicializamos el pin con 0
    // Inicializar el LCD
-  lcd.init();bkl
+  lcd.init();
    
   //Encender la luz de fondo.
   lcd.backlight();
